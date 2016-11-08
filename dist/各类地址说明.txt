@@ -1,0 +1,28 @@
+GDEV£º
+	Alert Service£ºhttp://10.16.230.41/ESD/Alert-service
+	Kango£º http://10.16.75.24:3000/datastore/v1/esd
+	Portal£ºhttp://10.16.75.10:9091
+	kafka£º http://10.16.75.26:8080/kafkawebconsole/main.action
+	Mail£º http://s7dmsq01.buyabs.corp:8080/Newegg/Oversea/Framework/MailService/2009021401/MailService.svc
+	MQ£º   http://10.16.75.24:3000/framework/v1/enterprise-messaging/message
+
+GQC£º 
+	Alert Service£ºhttp://10.1.24.142/ESD/Alert-Service
+	API£º   http://10.1.24.142/esd/alert-service/api/message-receive
+	Kango£º http://10.1.24.130:3000/datastore/v1/esd
+	Portal£ºhttp://10.1.24.145:9098/
+	Mail£º  http://10.1.25.141:8080/Newegg/Oversea/Framework/MailService/2009021401/MailService.svc
+	MQ£º    http://10.1.24.130:3000/framework/v1/enterprise-messaging/message
+	kafka£º http://10.1.24.174:8180/kafkawebconsole/main.action
+
+
+PRD£º
+	Kango£º http://apis.newegg.org/datastore/v1/esd/
+	Portal£ºhttp://developer.newegg.org
+	MQ£º    http://apis.newegg.org/framework/v1/enterprise-messaging/message
+	Mail:   http://s7ovsapp03:8080/Newegg/Oversea/Framework/MailService/2009021401/MailService.svc
+	Alert Service£ºhttp://s7bztapp04:8080/ESD/Alert-Service/
+	API£º   http://s7bztapp04:8080/esd/alert-service/api/message-receive
+			http://apis.newegg.org/esd/alert-service/api/message-receive
+			http://172.16.70.57:8080/esd/alert-service/api/message-receive
+	Kafka£º http://10.1.54.120:8200/kafkawebconsole/main.action
